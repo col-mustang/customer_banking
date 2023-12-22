@@ -4,35 +4,27 @@ Module 3 Challenge
 # Account.py
 #### Create an "Account" Class with methods setting a balance and setting the interest gained.
 
+# savings_account.py
+### Establishes a create_savings_account function (by creating an Account object) which:
+#### - Creates a savings account, 
+#### - Calculates the interest earned,
+#### - Updates the account balance
+#### - Returns the updated account balance and interest earned
+
 # cd_account.py
-### Create a CD account function which:
-#### - creates a CD account, 
-#### - calculates the interest earned,
-#### - updates the account balance
+### Establishes a create_cd_account function (by creating an Account object) which:
+#### - Creates a CD account, 
+#### - Calculates the interest earned,
+#### - Updates the account balance
+#### - Returns the updated account balance and interest earned
 
-    Args:
-        balance (float): The initial CD account balance.
-        interest_rate (float): The APR interest rate for the CD account.
-        months (int): The length of months for the CD.
-
-    Returns:
-        float: The updated CD account balance after adding the interest earned.
-        And returns the interest earned.
-    """
-    # Create an instance of the `Account` class and pass in the balance and interest parameters.
-    #  Hint: You need to add the interest as a value, i.e, 0.
-    # ADD YOUR CODE HERE
-
-    # Calculate interest earned
-    # ADD YOUR CODE HERE
-
-    # Update the CD account balance by adding the interest earned
-    # ADD YOUR CODE HERE
-
-    # Pass the updated_balance to the set balance method using the instance of the CDAccount class.
-    # ADD YOUR CODE HERE
-
-    # Pass the interest_earned to the set interest method using the instance of the CDAccount class.
-    # ADD YOUR CODE HERE
-
-    # Return the updated balance and interest earned.
+# customer_banking.py
+### Create a main function, importing the create_svings_account and create_cd_account functions, from which the user will:
+#### 1. Enter a starting savings account balance.
+#### 2. Enter the savings account interest rate as a percentage.
+#### 3. Enter the number of months you would like your account balance to mature.
+#### 4. Prints the interest earned and the new savings account balance.
+#### 5. Enter a starting CD account balance.
+#### 6. Enter the savings account interest rate as a percentage.
+#### 7. Enter the number of months you would like your account balance to mature.
+#### 8. Prints the interest earned and the new CD account balance.
